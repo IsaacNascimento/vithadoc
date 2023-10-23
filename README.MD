@@ -14,8 +14,6 @@ npm start
 
 cd backend
 
-php composer.json install
-
 composer install
 
 criar um arquivo de váriaveis locais na raíz do projeto: .env
