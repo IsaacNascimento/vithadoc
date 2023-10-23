@@ -1,0 +1,61 @@
+.dropdown-profile {
+  .header-item {
+    height: 70px;
+    display: flex;
+    align-items: center;
+  
+
+  button,
+  input[type="submit"],
+  input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+
+  .header-profile-user {
+    height: 32px;
+    width: 32px;
+  }
+
+  .fw-medium {
+    font-weight: 500;
+  }
+
+  .topbar-user {
+    @media (min-width: 767.99px) {
+      background-color: $topbar-user-bg-dark;
+    }
+    .user-name-text {
+      color: var(--#{$prefix}gray-700);
+    }
+
+    .user-name-sub-text {
+      color: $header-item-color-dark !important;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $header-item-color-dark !important;
+  }
+
+  .drop-menu {
+    span {
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    span:hover {
+      background-color: #f1f1f1;
+    }
+
+    .drop-item-text {
+      margin-left: 10px;
+    }
+  }
+ }
+}

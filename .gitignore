@@ -1,0 +1,8 @@
+# Front - Ignore
+**/frontend/node_modules
+**/frontend/.env
+
+# Back - Ignore
+**/backend/.env
+**/backend/vendor
+ 

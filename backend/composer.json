@@ -1,0 +1,21 @@
+{
+    "name": "isaac/backend",
+    "autoload": {
+        "psr-4": {
+            "":"src/"
+           
+        }
+    },
+    "authors": [
+        {
+            "name": "IsaacNascimento",
+            "email": "isaacs.nascimento17@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "firebase/php-jwt": "^6.9"
+    
+  
+    }
+}

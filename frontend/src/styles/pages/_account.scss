@@ -1,0 +1,71 @@
+.account {
+  // height: 70vh;
+  // width: 100%;
+  // min-height: 40vh;
+  display: flex;
+  overflow: auto;
+}
+
+@media screen and (max-width: 520px) {
+  .account {
+    // height: 70vh;
+    width: 100%;
+    // min-height: 40vh;
+    display: block;
+    overflow: none;
+  }
+}
+
+.account__wrapper {
+  margin: auto;
+  // padding: 10px;
+}
+
+.account__card {
+  background-color: #fff;
+  // padding: 50px 60px;
+  // max-width: 520px;
+  width: 100%;
+}
+
+.account__head {
+  margin-bottom: 30px;
+  padding-left: 10px;
+  border-left: 4px solid $color-accent;
+}
+
+.account__logo {
+  font-weight: 700;
+}
+
+.account__logo--accent {
+  color: $color-accent;
+}
+
+.account__subhead {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 520px) {
+  .account__card {
+    padding: 35px 30px;
+  }
+}
+
+.acesso-restrito {
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: "#010106";
+  margin-top: 5px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}

@@ -1,0 +1,109 @@
+$primary-color: #003241;
+
+.page {
+  margin: 0px 0px;
+
+  .titulo {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .button-novo {
+    border: none;
+    border-radius: 5px;
+    background-color: $primary-color;
+    color: white;
+    height: 50px;
+    width: 120px;
+  }
+
+  .button-novo:hover {
+    background-color: #00212b;
+  }
+
+  .descricao {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(128, 128, 128);
+  }
+
+  .header-card {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card_style {
+    background-color: #FFFFFF;
+    padding: 40px 20px;
+    border-radius: 7px;
+    border: 1px solid #ececec;
+    -webkit-box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.75);
+
+    .header {
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+    .titulo {
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .input-search {
+      display: flex;
+      // margin-left: 90%;
+
+      .input {
+        padding-left: 10px;
+        padding-bottom: 3px;
+        background-color: inherit;
+        padding-top: 14px;
+        border: 2px solid #000;
+        margin-right: 10px;
+        border-radius: 5px;
+      }
+
+      .input:focus {
+        border: inherit solid $primary-color;
+        background-color: white;
+        box-shadow: 1px -10px teal;
+        -webkit-box-shadow: -4px -4px 13px -2px rgba(0, 0, 0, 0.66);
+        -moz-box-shadow: -4px -4px 13px -2px rgba(0, 0, 0, 0.66);
+        box-shadow: -4px -4px 13px -2px rgba(0, 0, 0, 0.66);
+      }
+
+      .button-search {
+        background-color: $primary-color;
+        width: 72px;
+        height: 38px;
+        border: none;
+        border-radius: 6px;
+        margin-left: 10px;
+
+        span {
+          color: white;
+        }
+      }
+
+      .button-search:hover {
+        background-color: #00212b;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .input-search {
+        margin-top: 40px;
+        .input {
+          width: 220px;
+
+          .button-search {
+            width: 5px;
+          }
+        }
+      }
+    }
+  }
+}
